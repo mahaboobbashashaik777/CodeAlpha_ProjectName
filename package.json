@@ -1,0 +1,17 @@
+{
+  "name": "language-translator-workspace",
+  "version": "1.0.0",
+  "description": "Production-ready Language Translation Tool using React and Express",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix server && npm install --prefix client",
+    "server": "npm start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "client:dev": "npm run dev --prefix client",
+    "dev": "npx concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "test": "npm test --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

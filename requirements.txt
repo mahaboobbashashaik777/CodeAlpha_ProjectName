@@ -1,0 +1,16 @@
+# Root requirements for development
+# Backend
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+uvicorn
+# ML
+tensorflow
+music21
+numpy
+pandas
+pretty_midi
+soundfile
+# Optional
+torch

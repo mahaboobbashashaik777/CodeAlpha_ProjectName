@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+tensorflow
+music21
+numpy
+pandas
+pretty_midi
+soundfile
